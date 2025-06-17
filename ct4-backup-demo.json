@@ -1,0 +1,64 @@
+{
+  "inventory": [
+    {
+      "id": 1,
+      "name": "土豆",
+      "quantity": 50,
+      "price": 2.5,
+      "threshold": 10,
+      "unit": "千克"
+    },
+    {
+      "id": 2,
+      "name": "鸡蛋",
+      "quantity": 120,
+      "price": 0.8,
+      "threshold": 30,
+      "unit": "个"
+    },
+    {
+      "id": 3,
+      "name": "大米",
+      "quantity": 100,
+      "price": 3.2,
+      "threshold": 20,
+      "unit": "千克"
+    }
+  ],
+  "records": [
+    {
+      "id": 1,
+      "type": "in",
+      "name": "土豆",
+      "quantity": 50,
+      "price": 2.5,
+      "unit": "千克",
+      "time": "2024-06-01T09:00:00.000Z",
+      "operator": "张三",
+      "remark": "采购入库"
+    },
+    {
+      "id": 2,
+      "type": "in",
+      "name": "鸡蛋",
+      "quantity": 120,
+      "price": 0.8,
+      "unit": "个",
+      "time": "2024-06-01T09:10:00.000Z",
+      "operator": "李四",
+      "remark": ""
+    },
+    {
+      "id": 3,
+      "type": "out",
+      "name": "土豆",
+      "quantity": 10,
+      "price": 2.5,
+      "unit": "千克",
+      "time": "2024-06-02T12:00:00.000Z",
+      "operator": "王五",
+      "remark": "厨房领用"
+    }
+  ],
+  "adminPwd": "xdgxx"
+}
