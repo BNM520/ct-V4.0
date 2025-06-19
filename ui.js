@@ -788,8 +788,8 @@ const UI = {
         // 控制台提示
         if (window.console) {
             setTimeout(() => {
-                console.log('%c输入 showDebugClearButton() 并回车可显示清空所有数据按钮', 'color:#f56c6c;font-size:16px;');
-                console.log('%c或者直接在控制台输入: BNM', 'color:#409eff;font-size:14px;');
+                // console.log('%c输入 showDebugClearButton() 并回车可显示清空所有数据按钮', 'color:#f56c6c;font-size:16px;');
+                // console.log('%c或者直接在控制台输入: BNM', 'color:#409eff;font-size:14px;');
             }, 1000);
         }
         // 监听控制台输入BNM
